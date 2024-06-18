@@ -1,0 +1,11 @@
+INSERT INTO Customer (customer_Name, customer_Phone) VALUES 
+('ALI', '71321009'),
+('ASMA', '77345823');
+
+INSERT INTO Product (product_Name, Category, price) VALUES 
+('Samsung Galaxy S20', 'Smartphone', 3299),
+('ASUS Notebook', 'PC', 4599);
+
+INSERT INTO Orders (customer_ID, product_ID, orderDate, quantity, total_amount) VALUES 
+(1, 2, NULL, 2, 9198, NULL),
+(2, 1, '2020-05-28', 1, 3299, NULL);
